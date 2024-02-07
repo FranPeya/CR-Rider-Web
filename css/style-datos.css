@@ -1,0 +1,32 @@
+
+h1{
+    font-size: var(--pageTitleFontSize);
+    font-weight: var(--pageTitleFontWeight);
+    color:#fff;
+}
+
+.head{
+    padding: 50px 13%;
+}
+.bk{
+    background-color: var(--gray-bk);
+    min-height: 500px;
+}
+.container-fluid{
+    min-height: 500px;
+    width: 60%;
+    background-color: #fff;
+    padding: 50px;
+
+
+}
+@media (max-width: 767px) {
+
+    .respuestas{
+        padding: 20px 20px;  
+    }
+    h1{
+        font-size: var(--pageTitleFontSizeMobile);
+    }
+    
+}

@@ -1,0 +1,194 @@
+:root{
+  --bs-btn-active-bg:#fde6ed!important;
+}
+.card{
+  border-radius: 20px;
+  width: 30%;
+}
+h5{
+  font-weight: 700;
+}
+
+
+.card-as-button {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.card-as-button:hover {
+  transform: scale(1.02);
+  color:var(--red);
+}
+.card-img, .card-img-top{
+  padding: 20px;
+  max-width: 230px;
+}
+.ad{
+  padding-top: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.texto-derecha {
+  color:#fff;
+  max-width: 50%;
+}
+.sec-cont{
+  background: linear-gradient(to right, var(--gray-bk) 50%, var(--dacnis) 50%); /* Color de fondo dividido */
+
+}
+
+.caru-cont{
+  background: linear-gradient(to right, var(--dark) 50%, var(--gray-bk) 50%); /* Color de fondo dividido */
+}
+.container-sm{
+  background-color: var(--dark);
+  padding: 120px 0px;
+  border-radius: 0px 300px 300px 0px; 
+
+}
+
+
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.carousel-item {
+  width: 100%;
+  margin-right: 0;
+}
+
+.carousel-inner {
+  padding-left: 130px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn-primary{
+  background-color: var(--red);
+  border:none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 20px 40px;
+}
+.btn-primary:hover{
+  background-color: var(--yellow);
+  color:var(--dark);
+  cursor: pointer;
+}
+.btn-primary:active{
+  background-color: var(--red-2);
+  --bs-btn-active-bg: var(--red);
+}
+
+
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex !important; /* Forzar la visualización de las tarjetas en una fila */
+}
+
+/* Ajustar el ancho de las tarjetas en el carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  flex: 0 0 100%; /* Cada tarjeta ocupa el 100% del ancho en dispositivos de escritorio */
+}
+
+/*---------------------convertite-en-rider---------------------------*/
+.section-bk{
+  background-color:  var(--red-2);
+}
+  .section {
+    border-radius: 400px 0px 0px 400px; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1320px;
+    background-color:  var(--dacnis);
+    text-align: center;
+    padding: 100px 50px;
+  }
+
+  .section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+
+/*-------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+  .mobile-fullscreen-image {
+    width: 100%;
+    height: 100vh; /* 100% del alto de la ventana visible */
+    object-fit: cover;
+  }
+
+  
+
+  
+  .ad{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .text-ad{
+    width: 100%;
+    padding: 70px 14px!important;
+  }
+
+  .btn-primary{
+    padding: 10px 20px;
+  }
+
+
+  .card{
+  
+    width: 70%;
+  }
+
+  .container-sm{
+   
+    border-radius: 0px; 
+  
+  }
+
+
+  .section {
+    border-radius: 0px; 
+  }
+
+
+
+  .texto-derecha {
+    max-width: 100%;
+  }
+  
+  .card-text{
+    padding-top: 30px;
+  }
+ 
+  .carousel-inner {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .carousel {
+    width: 100%;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%; /* Cada tarjeta ocupa el 100% del ancho en dispositivos móviles */
+  }
+}

@@ -1,0 +1,38 @@
+
+.accordion-button:focus{
+    border-color:none;
+    box-shadow:none;
+    
+  }
+
+  .accordion-button:not(.collapsed){
+    background-color:var(--red-2);
+    color:var(--dark);
+  }
+  
+
+
+h1{
+    font-size: var(--pageTitleFontSize);
+    font-weight: var(--pageTitleFontWeight);
+    color:#fff;
+}
+
+
+.head{
+    padding: 50px 13%;
+}
+.respuestas{
+    background-color: var(--gray-bk);
+    padding: 3% 20% 10% 20%;
+    min-height: 500px;
+}
+@media (max-width: 767px) {
+
+    .respuestas{
+        padding: 20px 20px;  
+    }
+    h1{
+        font-size: var(--pageTitleFontSizeMobile);
+    }
+}

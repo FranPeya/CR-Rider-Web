@@ -1,0 +1,432 @@
+
+img {
+    width: 150px;
+  }
+
+.indice{
+  display: flex;
+    color:#fff;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+
+  main .paso{
+background-color: var(--gray-bk);
+  }
+  h4{
+    padding-left: 10px;
+  }
+
+.btn-cards{
+    background-color:#fa0050;
+    border:0px;
+}
+.btn-cards:hover{
+    background-color:#100423;
+}
+.btn-pregunta{
+  border: 0;
+    background-image: linear-gradient( rgb(255, 153, 185)	,rgb(255, 153, 185)	 ), linear-gradient(rgb(226, 211, 248)	, rgb(226, 211, 248)	);
+    background-repeat: no-repeat;
+    padding-right: 0.57em;
+    padding-bottom: 0.285em;
+    background-size: 0 0.8571em, calc(100% - 0.57em) 1.200em;
+    background-position: right 0 top 0.57em, right 0 top 0.50em;
+    background-position-x: right 0px, right 0px;
+    background-position-y: top 0.57em, top 0.57em;
+    transition: background-size 0.5s cubic-bezier(0.19, 1, 0.22, 1), color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+a .btn-lista{
+        position: relative;
+    z-index: 1;
+}
+.list-group-item.active{
+    border-color:#100423;
+    background-color: #100423;
+}
+.faq-listado{
+  width: 72%;
+}
+
+.nav-pills .nav-link {
+  background-color:var(--gray-bk);
+  color:#100423;
+  margin:10px;
+  text-decoration: underline;
+}
+:active.nav-link{
+  background-color: #100423 !important;
+  color:#fff;
+}
+.faq-foto{
+  background-color: #661EC8;
+  color: #fff;
+width: 100%;
+margin-top: 40px;
+margin-bottom: 70px;
+}
+.featurette{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.carousel-text{
+  padding: 5%;
+}
+.carousel{
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+#myBtn {
+  font-family: texta alt, lato;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fa0050;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #f8ea46;
+}
+.detalles-faq{
+    width: 100%;
+}
+#hanging-icons{
+    padding: 0px 15%;
+}
+
+
+
+body {
+  background-color: #fff;
+}
+.banner-principal img {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+}
+
+
+main .contenedor-principal {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* -----------------------controles-------------- */
+main .Indicadores {
+  align-items: center;
+  margin-top: 60px;
+}
+main .Indicadores button {
+  margin-top: 30px;
+  background: #100423;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
+  border-radius: 10px;
+}
+main .Indicadores button:hover,
+main .Indicadores button.activo {
+  background: red;
+}
+
+.contenedor-principal .flecha-izquierda,
+.contenedor-principal .flecha-derecha {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 30%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+}
+
+.contenedor-principal .flecha-izquierda:hover,
+.contenedor-principal .flecha-derecha:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.contenedor-principal .flecha-izquierda {
+  left: 0;
+}
+.contenedor-principal .flecha-derecha {
+  right: 0;
+}
+
+/* -----------------------Carrusel-------------- */
+
+.contenedor-carousel {
+  width: 100%;
+  padding: 20px 0px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.contenedor-carousel .carousel {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.contenedor-carousel .carousel .pelicula {
+  min-width: 50%;
+  transition: 0.3s ease all;
+}
+.contenedor-carousel .carousel .pelicula.hover {
+  transform-origin: center;
+  transform: scale(1.05);
+}
+
+.contenedor-carousel .carousel .pelicula img {
+  width: 100%;
+  vertical-align: top;
+}
+
+/* -----------------------Carrusel-------------- */
+
+/* -----------------------controles2-------------- */
+main .contenedor-principal2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+main .Indicadores2 {
+  align-items: center;
+  margin-top: 60px;
+}
+main .Indicadores2 button {
+  margin-top: 30px;
+  background: #100423;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
+  border-radius: 10px;
+}
+main .Indicadores2 button:hover,
+main .Indicadores2 button.activo {
+  background: red;
+}
+
+.contenedor-principal2 .flecha-izquierda2,
+.contenedor-principal2 .flecha-derecha2 {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 30%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+}
+
+.contenedor-principal2 .flecha-izquierda2:hover,
+.contenedor-principal2 .flecha-derecha2:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.contenedor-principal2 .flecha-izquierda2 {
+  left: 0;
+}
+.contenedor-principal2 .flecha-derecha2 {
+  right: 0;
+}
+
+/* -----------------------Carrusel 2-------------- */
+
+.contenedor-carousel2 {
+  width: 100%;
+  padding: 20px 0px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.contenedor-carousel2 .carousel2 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.contenedor-carousel2 .carousel2 .pelicula2 {
+  min-width: 50%;
+  transition: 0.3s ease all;
+}
+.contenedor-carousel2 .carousel2 .pelicula2.hover {
+  transform-origin: center;
+  transform: scale(1.05);
+}
+
+.contenedor-carousel2 .carousel2 .pelicula2 img {
+  width: 100%;
+  vertical-align: top;
+}
+
+/* -----------------------Carrusel 2 -------------- */
+
+.Footer {
+  background: #100423;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 0px;
+  color: #ffffff;
+  height: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+ 
+  .nav-principal{
+    height: auto;
+
+  }
+  h5{
+    padding: 10px;
+  }
+  .featurette{
+    width: 100%;
+  }
+.carousel{
+  padding: 0px;
+}
+
+  img {
+    width: 120px;
+  }
+  .titulo-pag {
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 800;
+    padding: 0px;
+  }
+  #hanging-icons{
+    padding: 0px 5%;
+}
+
+.faq-listado{
+  width: 95%;
+}
+  .Footer {
+    padding: 7px 0px;
+  }
+  .logo-fot {
+    padding: 10px 54px;
+  }
+
+  .contenedor-carousel {
+    width: 100%;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  .contenedor-carousel .carousel {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .contenedor-carousel .carousel .pelicula {
+    min-width: 100%;
+    transition: 0.3s ease all;
+  }
+  .contenedor-carousel .carousel .pelicula.hover {
+    transform-origin: center;
+    transform: scale(1.05);
+  }
+
+  .contenedor-carousel .carousel .pelicula img {
+    width: 100%;
+    vertical-align: top;
+  }
+
+  /* .row > * {
+    padding-top: 20px;
+  } */
+  .row {
+    text-align: -webkit-center;
+    --bs-gutter-x: 0rem;
+  }
+  
+
+  main .Indicadores {
+    align-items: center;
+    margin-top: 10px;
+  }
+  main .Indicadores button {
+    margin-top: 30px;
+    background: #100423;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+    border-radius: 10px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .contenedor-carousel2 {
+    width: 100%;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .contenedor-principal .flecha-izquierda,
+  .contenedor-principal .flecha-derecha {
+    font-size: 20px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 20px;
+    width: 20px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: 0.2s ease all;
+  }
+  .contenedor-principal2 .flecha-izquierda2,
+  .contenedor-principal2 .flecha-derecha2 {
+    font-size: 20px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 20px;
+    width: 20px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: 0.2s ease all;
+  }
+
+}
+  @media only screen and (max-width: 300px) {
+    header h1 {
+      font-size: 20px;
+    }
+  
+    .text h1 {
+      font-size: 18px;
+    }}
