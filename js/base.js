@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <ul class="navbar-nav justify-content-end">
         <li class="nav-item py-2">
         
-        <a class="nav-link text-white nav-cat" href="../centro.html">
+        <a class="nav-link text-white nav-cat" href="centro.html">
         <img src="../img/Help.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px">  Centro de autogestión</a>
         </li>
         <li class="nav-item py-2">
