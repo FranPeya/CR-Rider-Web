@@ -36,21 +36,21 @@ document.addEventListener("DOMContentLoaded", () => {
         <li class="nav-item py-2">
         
         <a class="nav-link text-white nav-cat" href="../CR-Rider-Web/centro.html">
-        <img src="../img/Help.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px">  Centro de autogestión</a>
+        <img src="/img/Help.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px">  Centro de autogestión</a>
         </li>
         <li class="nav-item py-2">
           <a class="nav-link text-white nav-cat" href="../CR-Rider-Web/seguridad.html">
-          <img src="../img/Security.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px"> 
+          <img src="/img/Security.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px"> 
           Seguridad</a>
         </li>
         <li class="nav-item py-2">
         <a class="nav-link text-white nav-cat" href="../CR-Rider-Web/descuentos.html">
-        <img src="../img/Discount.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px"> 
+        <img src="/img/Discount.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px"> 
         Descuentos</a>
       </li>
       <li class="nav-item py-2">
         <a class="nav-link text-white nav-cat" href="../CR-Rider-Web/aplicantes.html">
-        <img src="../img/Information.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px"> 
+        <img src="/img/Information.svg" alt="Logo Mobile" class="d-lg-none logo-mobile img-fluid" style="width: 30px;padding-right:5px"> 
         ¿Qué necesito para aplicar?</a>
       </li>
         <li class="nav-item py-2">
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const contenidoFooter = `<footer class="footer bg-dark text-white py-4">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+     <!-- <div class="col-md-6">
         <h5 class="mb-3">Información de contacto</h5>
         <p>Dirección: 123 Calle Principal, Ciudad</p>
         <p>Teléfono: +1 234 567890</p>
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <li><a href="#">Servicios</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
-      </div>
+      </div>-->
     </div>
     <div class="row mt-4">
       <div class="col-12 text-center">
