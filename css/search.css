@@ -80,7 +80,6 @@ button.accordion-button:not(.collapsed)::after {
 
 .searchInput .resultBox {
   padding: 0;
-  opacity: 0;
   pointer-events: none;
   max-height: 100%;
   overflow-y: auto;
