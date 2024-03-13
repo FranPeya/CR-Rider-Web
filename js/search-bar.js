@@ -23,7 +23,7 @@ function hideLoadingIcon() {
 // Function to display "Lo siento, prueba con otra palabra" message
 function displayNoResultsMessage() {
   
-  resultBox.innerHTML = "<p>Lo siento, prueba con otra palabra.</p>";
+  resultBox.innerHTML = "<p style='padding-left:30px'>Lo siento :(   prueba con otra palabra.</p>";
 }
 
 // Function to clear the results
